@@ -75,7 +75,7 @@
   position: relative;
   display: inline-block;
   vertical-align: top;
-  padding-left: 45px;
+  padding-left: 46px;
 
   color: #000000;
   font-family: 'Roboto', sans-serif;
@@ -87,13 +87,86 @@
 .login::before {
   content: "";
   position: absolute;
-  top: 6px;
+  top: 7px;
   left: 6px;
 
   width: 15px;
   height: 15px;
 
   background: #eeeeee url(../img/cart-icon.png);
+  opacity: 0.3;
+}
+
+.slider {
+  min-height: 430px;
+  background-color: #eeeeee;
+}
+
+.slider-slogan {
+  float: left;
+  padding-top: 80px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.slider-slogan b{
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+.slider-description {
+  float: left;
+  width: 400px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.slider-description p{
+  margin: 0;
+  margin-bottom: 20px;
+  color: #283136;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.slider-image {
+  float: right;
+  width: 698px;
+  height: 413px;
+  padding-right: 31px;
+  padding-top: 17px;
+}
+
+/*.slider-link-more {
+  float: left;
+  width: 240px;
+  height: 50px;
+}*/
+
+.btn {
+  display: inline-block;
+  padding: 18px 54px;
+
+  margin: 0;
+  color: #283136;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #fb565a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 
@@ -114,12 +187,6 @@
 
 
 
-
-
-
-/*======================================
- Системное оформление - не изменять
-=======================================*/
 
 body {
   padding: 3px;
