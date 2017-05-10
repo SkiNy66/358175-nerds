@@ -105,7 +105,6 @@ body {
   display: inline-block;
   vertical-align: top;
   padding-left: 46px;
-
   color: #000000;
   font-size: 16px;
   line-height: 30px;
@@ -117,10 +116,8 @@ body {
   position: absolute;
   top: 7px;
   left: 6px;
-
   width: 15px;
   height: 15px;
-
   background: #eeeeee url(../img/cart-icon.png);
   opacity: 0.3;
 }
@@ -312,7 +309,7 @@ body {
   font-weight: 400;
 }
 
-.btn-cite {
+.btn-site {
   width: 160px;
   padding: 16px 39px;
   text-align: center;
@@ -320,11 +317,11 @@ body {
   background-color: #fb565a;
 }
 
-.btn-cite:hover {
+.btn-site:hover {
   background-color: #e74246;
 }
 
-.btn-cite:active {
+.btn-site:active {
   box-shadow: inset 0 3px 0 0 #c13135;
   background-color: #d7373b;
   color: rgba(255,255,255,0.3);
@@ -479,7 +476,6 @@ body {
   line-height: 24px;
   font-weight: 700;
   text-transform: uppercase;
-
   margin-bottom: 60px;
 }
 
@@ -519,11 +515,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-
   margin-bottom: 80px;
   min-height: 178px;
   padding-top: 2px;
-
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
 }
@@ -754,10 +748,7 @@ body {
   width: 760px;
 }
 
-.filters {
-}
-
- .filters h2 {
+.filters h2 {
   margin: 0;
   margin-bottom: 52px;
 
@@ -768,12 +759,12 @@ body {
   text-transform: uppercase;
  }
 
- .filter-price {
+.filter-price {
    width: 260px;
    margin-bottom: 60px;
  }
 
- .range-controls {
+.range-controls {
   position: relative;
   height: 41px;
   border-radius: 5px;
@@ -1150,7 +1141,6 @@ input[name="grid-select"]:checked + label {
   margin: 0;
   padding: 0;
   list-style: none;
-
   font-size: 0;
 }
 
@@ -1172,9 +1162,6 @@ input[name="grid-select"]:checked + label {
 
 .pages a {
   display: block;
-  /*padding-bottom: 10px;*/
-
-
   color: #000000;
   text-decoration: none;
 }
@@ -1187,7 +1174,6 @@ input[name="grid-select"]:checked + label {
   border-radius: 3px;
   text-align: center;
   vertical-align: middle;
-
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
@@ -1221,7 +1207,7 @@ input[name="grid-select"]:checked + label {
   background-color: #dfdfdf;
  }
 
- .page-btn-next:active {
+.page-btn-next:active {
   box-shadow: inset 0 3px 0 0 #bfbfbf;
   background-color: #d5d5d5;
   color: rgba(0,0,0,0.3);
@@ -1355,12 +1341,10 @@ input[name="grid-select"]:checked + label {
   box-sizing: border-box;
   margin: 0;
   padding: 15px;
-
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
   color: rgba(68,68,68,0.5);
-
   outline: none;
   resize: none;
   border: 2px solid #d7dcde;
