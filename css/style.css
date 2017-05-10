@@ -6,9 +6,9 @@
   clear: both;
 }
 
-.body {
+body {
   min-width: 1200px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', "Arial", sans-serif;
 }
 
 .header {
@@ -80,7 +80,6 @@
   text-decoration: none;
   text-transform: uppercase;
 
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 30px;
   font-weight: 500;
@@ -108,7 +107,6 @@
   padding-left: 46px;
 
   color: #000000;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 30px;
   font-weight: 500;
@@ -185,7 +183,6 @@
   margin-top: 76px;
   margin-bottom: 24px;
   width: 530px;
-  font-family: 'Roboto', sans-serif;
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
@@ -197,7 +194,6 @@
   padding: 0;
   margin-bottom: 40px;
   width: 420px;
-  font-family: 'Roboto', sans-serif;
   color: #283136;
   font-size: 16px;
   line-height: 24px;
@@ -238,7 +234,6 @@
 
 .btn {
   display: block;
-  font-family: Roboto, sans-serif;
   color: #ffffff;
   font-size: 16px;
   line-height: 18px;
@@ -299,7 +294,6 @@
   padding: 0;
 
   color: #000000;
-  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
@@ -313,7 +307,6 @@
 .item-slogan p {
   margin-right: 10px;
   color: #283136;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -389,7 +382,6 @@
 
 .studio-slogan b {
   color: #000000;
-  font-family: 'Roboto', sans-serif;
   font-size: 45px;
   line-height: 45px;
   font-weight: 500;
@@ -398,7 +390,6 @@
 .studio-slogan p {
   margin-top: 30px;
   color: #283136;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -416,7 +407,6 @@
 
 .studio-progress p{
   color: #000000;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -427,7 +417,6 @@
 
 .studio-progress li{
   color: #283136;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -486,7 +475,6 @@
 
 .studio-services b {
   color: #000000;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -504,7 +492,6 @@
 
 .studio-services li {
   color: #283136;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -607,7 +594,6 @@
 }
 
 .write-us h4 {
-  font-family: 'Roboto', sans-serif;
   width: 213px;
   margin-left: auto;
   margin-right: auto;
@@ -622,7 +608,6 @@
   margin-left: auto;
   margin-right: auto;
   color: #666666;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -732,7 +717,6 @@
 
 .social-slogan b {
   color: #000000;
-  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   line-height: 36px;
   font-weight: 700;
@@ -740,14 +724,12 @@
 
 .social-slogan p {
   color: #444444;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 22px;
   font-weight: 700;
 }
 
 .catalog-title {
-  font-family: 'Roboto', sans-serif;
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
@@ -773,7 +755,6 @@
 }
 
 .filters {
-  font-family: Roboto, sans-serif;
 }
 
  .filters h2 {
@@ -1207,7 +1188,6 @@ input[name="grid-select"]:checked + label {
   text-align: center;
   vertical-align: middle;
 
-  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
@@ -1231,7 +1211,6 @@ input[name="grid-select"]:checked + label {
   background-color: #eeeeee;
   border-radius: 3px;
 
-  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
@@ -1309,7 +1288,6 @@ input[name="grid-select"]:checked + label {
 }
 
 .form-contact {
-  font-family: Roboto, sans-serif;
   font-size: 0;
 }
 
@@ -1326,7 +1304,6 @@ input[name="grid-select"]:checked + label {
 }
 
 .form-contact label {
-  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 700;
@@ -1345,7 +1322,6 @@ input[name="grid-select"]:checked + label {
   box-sizing: border-box;
   padding: 15px;
 
-  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -1380,7 +1356,6 @@ input[name="grid-select"]:checked + label {
   margin: 0;
   padding: 15px;
 
-  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
